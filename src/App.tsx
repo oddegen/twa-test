@@ -26,7 +26,7 @@ function Box(props: ThreeElements["mesh"]) {
 
 function App() {
   return (
-    <div>
+    <div className="fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
       <Canvas>
         <ambientLight intensity={Math.PI / 2} />
         <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} decay={0} intensity={Math.PI} />
